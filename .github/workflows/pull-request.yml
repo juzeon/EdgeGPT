@@ -75,7 +75,7 @@ jobs:
           script: |
             const pr = context.payload.pull_request;
 
-            const assignees = ['acheong08'];
+            const assignees = ['InterestingDarkness'];
             const assignee = assignees[Math.floor(Math.random() * assignees.length)];
             console.log(`The question will assign to ${assignee}`)
 
