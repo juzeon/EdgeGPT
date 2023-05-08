@@ -165,7 +165,7 @@ class SydneyWindow(QWidget):
                                 wrote = len(message["text"])
                                 if "suggestedResponses" in message:
                                     suggested_responses = list(map(lambda x: x["text"], message["suggestedResponses"]))
-                                    self.chat_history.insertPlainText(f"""\n[assistant](#suggestions)
+                                    print(f"""\n[assistant](#suggestions)
 ```json
 {{"suggestedUserResponses": {suggested_responses}}}
 ```\n\n""")
