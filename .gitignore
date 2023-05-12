@@ -130,3 +130,6 @@ dmypy.json
 cookies.json
 output/*
 README.md
+src/start-sydney-gui.bat
+.idea
+saves
