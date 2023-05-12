@@ -133,3 +133,4 @@ README.md
 src/start-sydney-gui.bat
 .idea
 saves
+src/config.json
